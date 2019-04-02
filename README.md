@@ -1,5 +1,7 @@
 # Data Stream Delivery
 This repository contains the needed code to add support for data streams to the data marketplace. The project is written in [Go](https://golang.org/).
+To run this component correctly, you should be familiar with the [Data marketplace](https://github.com/lgsvl/data-marketplace) components because there is a particular dependency between the components.
+
 
 # Build prerequisites
   * Install [golang](https://golang.org/).
@@ -26,6 +28,9 @@ docker build -t data-stream-delivery .
 docker run -p 7778:7778 data-stream-delivery
 ```
 
+### Kubernetes Deployment 
+The [deployment](./deployment) folder contains the deployment and persistent volume claim manifests to deploy this component.
+We assume that [Data marketplace Chaincode REST](https://github.com/lgsvl/data-marketplace-chaincode-rest) is already deployed.
 
 To create a stream, you can do:
 ```
