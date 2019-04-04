@@ -46,3 +46,7 @@ Run the tests:
 ./scripts/run_glide_up
 ./scripts/run_units.sh
 ```
+
+# Queries Description
+
+More details about the queries and payloads are [here](./Queries.md).
