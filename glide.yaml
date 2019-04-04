@@ -1,4 +1,4 @@
-package: pse-gitlab.lgsvl.net/data_marketplace/data-stream-delivery
+package: github.com/lgsvl/data-marketplace-stream-delivery
 import:
 - package: github.com/Shopify/sarama
   version: ^1.20.1

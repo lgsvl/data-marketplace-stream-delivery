@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 
-	"pse-gitlab.lgsvl.net/data_marketplace/data-stream-delivery/controllers"
-	"pse-gitlab.lgsvl.net/data_marketplace/data-stream-delivery/resources"
-	"pse-gitlab.lgsvl.net/data_marketplace/data-stream-delivery/server"
-	"pse-gitlab.lgsvl.net/data_marketplace/data-stream-delivery/utils"
+	"github.com/lgsvl/data-marketplace-stream-delivery/controllers"
+	"github.com/lgsvl/data-marketplace-stream-delivery/resources"
+	"github.com/lgsvl/data-marketplace-stream-delivery/server"
+	"github.com/lgsvl/data-marketplace-stream-delivery/utils"
 )
 
 // main start a http server and waits for connection
