@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: data-stream-delivery
-        image: lgsvl/data-marketplace-stream-delivery:dev
+        image: lgsvlfx/data-marketplace-stream-delivery:dev
         imagePullPolicy: Always
         ports:
         - containerPort: 7777
